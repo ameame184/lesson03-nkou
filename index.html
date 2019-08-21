@@ -11,24 +11,28 @@
 
 <header id="header">
     <div class="headerNavi_top">
-        <p>カドカワが創る新しいネットの高校</p>
-        <ul>
-            <li><a href="#">入学案内</a></li>
-            <li><a href="#">キャンパス</a></li>
-            <li><a href="#">ニュース・トピックス</a></li>
-            <li><a href="#">N高ブログ</a></li>
-            <li><a href="#">WEB出願</a></li>
-            <li><a href="#">卒業された方へ</a></li>
-            <li><a href="#"><img src="images/icon_site_mark.png">生徒用ログイン</a></li>
-        </ul>
+        <div class="headerNavi_top_wrapper">
+            <p>カドカワが創る新しいネットの高校</p>
+            <ul>
+                <li class="nav-first"><a href="#">入学案内</a></li>
+                <li><a href="#">キャンパス</a></li>
+                <li><a href="#">ニュース・トピックス</a></li>
+                <li><a href="#">N高ブログ</a></li>
+                <li><a href="#">WEB出願</a></li>
+                <li><a href="#">卒業された方へ</a></li>
+                <li class="logo-student"><a href="#"><img src="images/backgound_images/icon_site_mark.png">生徒用ログイン</a></li>
+            </ul>
+        </div>
     </div>
     <div class="headerLogo">
         <div class="headerLogo_left">
-            <img src="images/header_mainlogo.png">
+            <a href="#">
+                <img src="images/header_mainlogo.png">
+            </a>
         </div>
         <div class="headerLogo_right">
             <ul>
-                <li><img src="images/header_tel.png"><p>受付時間：平日9:30～20:00</p></li>
+                <li class="right-reception"><img src="images/header_tel.png"><p>受付時間：平日9:30～20:00</p></li>
                 <li><a href="#"><img src="images/header_facebook.png"></a></li>
                 <li><a href="#"><img src="images/header_twitter.png"></a></li>
                 <li><a href="#"><img src="images/header_youtube.png"></a></li>
@@ -36,14 +40,14 @@
         </div>
     </div>
     <div class="headerNavi_local">
-        <ul class="headerNavi_right">
-            <!-- background-imageかぶせる -->
-            <li>N高について<span>About School</span></li>   
-            <li><a href="#">ネットコース<span>Net Course</span></a></li>
-            <li><a href="#">通学コース<span>Commute Course</span></a></li>
-            <li><a href="#">提携スクール<span>Alliance School</span></a></li>
-        </ul>
         <ul class="headerNavi_left">
+            <!-- background-imageかぶせる -->
+            <li class="headerNavi_left-about">N高について<span>About School</span></li>   
+            <li class="headerNavi_left-net"><a href="#">ネットコース<span>Net Course</span></a></li>
+            <li class="headerNavi_left-commute"><a href="#">通学コース<span>Commute Course</span></a></li>
+            <li class="headerNavi_left-alliance"><a href="#">提携スクール<span>Alliance School</span></a></li>
+        </ul>
+        <ul class="headerNavi_right">
             <li><a href="#">説明会・相談会</a></li>
             <li><a href="#">資料請求</a></li>
         </ul>
