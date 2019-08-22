@@ -359,4 +359,65 @@
 /* メイン */
 #main {
     clear: both;
+    width: 1280px;
+}
+
+#main .mainNavi {
+    background: #181836;
+}
+
+#main .mainNavi ul {
+    width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+#main .mainNavi ul:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 10%;
+    margin-left: -15px;
+    border: 6px solid transparent;
+    border-bottom: 10px solid #181836;
+    z-index: 10;
+}
+
+#main .mainNavi ul li:not(:first-child)::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    margin: 0 0 3px;
+    background: url(../images/backgound_images/icon_backslash01_black01.png);
+    vertical-align: middle;
+}
+
+#main .mainNavi ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+#main .mainNavi ul li a {
+    display: inline-block;
+    margin-left: 15px;
+    color: #FFFFFF;
+    padding: 7px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+#main .mainNavi ul li a:hover {
+    display: inline-block;
+    margin-left: 15px;
+    color: #1f286f;
+    background-color: #ffffff;
+    padding: 7px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: 0.2s;
 }
