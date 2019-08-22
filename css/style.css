@@ -428,7 +428,6 @@
     height: 530px;
     background-image: url(../images/backgound_images/about_mainimage.jpg);
     object-fit: cover;
-
 }
 
 #main .mainTitle h1 {
@@ -453,4 +452,32 @@
     width: 90px;
     height: 13px;
     margin-top: 30px;
+}
+
+#main .pageNavi {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1
+}
+
+#main .pageNavi ul {
+    width: 1060px;
+    margin: 0 auto;
+    padding: 20px 10px; 
+}
+
+#main .pageNavi ul li {
+    display: table-cell;
+    list-style: none;
+    font-size: 14px;
+}
+
+#main .pageNavi ul li a {
+    display: block;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #36538d;
+}
+
+#main .pageNavi ul li a:hover {
+    text-decoration: underline;
 }
