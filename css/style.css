@@ -704,7 +704,7 @@
     object-fit: cover;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a .basic-program {
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a .program {
     display: inline-block;
     padding: 7px 10px 2px 10px;
     width: 100px;
@@ -762,7 +762,7 @@
     object-fit: cover;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a .basic-program {
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a .program {
     display: inline-block;
     padding: 7px 10px 2px 10px;
     width: 100px;
