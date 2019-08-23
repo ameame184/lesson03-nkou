@@ -483,18 +483,19 @@
     text-decoration: underline;
 }
 
-#main .mainTitle_sub {
+/* メインコンテンツ */
+#main .mainWrapper {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+#main .mainWrapper .mainTitle_sub {
     width: 100%;
     padding-top: 30px;
     margin-bottom: 50px;
 }
 
-#main .mainTitle_sub .mainTitle_sub-content {
-    width: 1040px;
-    margin: 0 auto;
-}
-
-#main .mainTitle_sub .mainTitle_sub-content h2 {
+#main .mainWrapper .mainTitle_sub .mainTitle_sub-content h2 {
     text-align: center;
     margin-bottom: 70px;
     font-size: 2rem;
@@ -502,22 +503,107 @@
     letter-spacing: 10px;
 }
 
-#main .mainTitle_sub .mainTitle_sub-content h3 {
+#main .mainWrapper .mainTitle_sub .mainTitle_sub-content h3 {
     text-align: center;
     letter-spacing: 5px;
     line-height: 2;
     font-size: 1.2rem;
-    background-image: url(../images/backgound_images/line_black.png);
+    background-image: url(../images/backgound_images/line_black01.png);
     background-position: center bottom;
     background-size: 200px;
     padding-bottom: 20px;
 }
 
-#main .mainTitle_sub .mainTitle_sub-content p {
+#main .mainWrapper .mainTitle_sub .mainTitle_sub-content p {
     width: 700px;
     margin: 0 auto;
     padding-top: 25px;
     font-size: 16px;
     letter-spacing: .1rem;
     line-height: 1.8;
+}
+
+#main .mainWrapper .aboutService_title {
+    font-size: 1.8rem;
+    padding: 10px 0;
+    font-weight: 500;
+    background-image: url(../images/backgound_images/line_black02.png);
+    background-position: left bottom;
+    margin-bottom: 50px;
+}
+
+#main .mainWrapper .aboutService {
+    display: flex;
+    margin-bottom: 50px;     
+}
+
+#main .mainWrapper .aboutService table {
+    width: 55%;
+}
+
+#main .mainWrapper .aboutService table tr {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#main .mainWrapper .aboutService table tr th {
+    padding: 10px 15px 10px 0;
+    border-right: 1px solid #1c1c1c;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#main .mainWrapper .aboutService table tbody tr td {
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+#main .mainWrapper .aboutService .aboutService_image {
+    width: 60%;
+    margin-right: -200px;
+}
+
+/* N STANDARD */
+#main .mainWrapper .aboutService_standards {
+    width: 690px;
+    margin: 0 auto;
+    background: #f7f7f7;
+}
+
+#main .mainWrapper .aboutService_standards a {
+    display: flex;
+    padding: 30px 40px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: inherit;
+}
+
+#main .mainWrapper .aboutService_standards a:hover img {
+    opacity: 0.7;
+    transition: .2s;
+}
+
+#main .mainWrapper .aboutService_standards .stardards_content {
+    margin-left: 20px;
+}
+
+#main .mainWrapper .aboutService_standards .stardards_content h3 {
+    font-weight: 600;
+    margin: 5px 0 10px 0;
+}
+
+#main .mainWrapper .aboutService_standards .stardards_content p {
+    letter-spacing: .2rem;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+#main .mainWrapper .aboutService_standards .stardards_content img {
+    display: block;
+    background-image: url(../images/backgound_images/icon_arrow_right_black.png);
+    background-size: 5px 9px; 
+    background-position: left center;
+    width: 90px;
+    height: 13px;
+    padding-left: 20px;
 }
