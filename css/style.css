@@ -432,7 +432,7 @@
 
 #main .mainTitle h1 {
     text-align: center; 
-    background-image: url(../images/backgound_images/line_white01.png);
+    background-image: url(../images/backgound_images/line_white.png);
     background-position: center bottom;
     background-size: 200px;
     color: #FFFFFF;
@@ -456,7 +456,8 @@
 
 #main .pageNavi {
     width: 100%;
-    border-bottom: 1px solid #e1e1e1
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 30px;
 }
 
 #main .pageNavi ul {
@@ -480,4 +481,43 @@
 
 #main .pageNavi ul li a:hover {
     text-decoration: underline;
+}
+
+#main .mainTitle_sub {
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main .mainTitle_sub .mainTitle_sub-content {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+#main .mainTitle_sub .mainTitle_sub-content h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+#main .mainTitle_sub .mainTitle_sub-content h3 {
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 2;
+    font-size: 1.2rem;
+    background-image: url(../images/backgound_images/line_black.png);
+    background-position: center bottom;
+    background-size: 200px;
+    padding-bottom: 20px;
+}
+
+#main .mainTitle_sub .mainTitle_sub-content p {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 16px;
+    letter-spacing: .1rem;
+    line-height: 1.8;
 }
