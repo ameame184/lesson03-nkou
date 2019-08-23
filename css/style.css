@@ -650,7 +650,7 @@
     width: 1280px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 {
+#main .aboutProgram .aboutProgram_detail01:nth-child(odd) {
     width: 100%;
     background: #F7F7F7;
 }
@@ -658,6 +658,7 @@
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper {
     width: 1060px;
     margin: 0 auto;
+    padding: 70px 0;
 }
 
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_center01 {
@@ -675,13 +676,11 @@
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_center02 {
     text-align: center;
     line-height: 2;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
 }
 
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents {
     display: flex;
-    margin-bottom: 100px;
+    margin: 70px 0 80px 0;
 }
 
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents img {
@@ -707,7 +706,7 @@
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a .program {
     display: inline-block;
     padding: 7px 10px 2px 10px;
-    width: 100px;
+    width: 120px;
     background: #1C1C1C;
     margin-bottom: 10px;
 }
@@ -739,7 +738,7 @@
 /* ２番目コンテンツ */
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents {
     display: flex;
-    margin-bottom: 100px;
+    margin: 70px 0 80px 0;
 }
 
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents img {
@@ -765,7 +764,7 @@
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a .program {
     display: inline-block;
     padding: 7px 10px 2px 10px;
-    width: 100px;
+    width: 120px;
     background: #1C1C1C;
     margin-bottom: 10px;
 }
