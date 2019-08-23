@@ -567,6 +567,7 @@
 #main .mainWrapper .aboutService_standards {
     width: 690px;
     margin: 0 auto;
+    margin-bottom: 60px;
     background: #f7f7f7;
 }
 
@@ -606,4 +607,36 @@
     width: 90px;
     height: 13px;
     padding-left: 20px;
+}
+
+#main .mainWrapper .aboutService_second {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+#main .mainWrapper .aboutService_second .aboutService_second-wrapper {
+    width: 45%;
+}
+
+#main .mainWrapper .aboutService_second h3 {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: normal;
+    border-bottom: 1px solid #1c1c1c;
+}
+
+#main .mainWrapper .aboutService_second .aboutService_content  {
+    padding: 15px 0;
+    line-height: 1.8rem;
+}
+
+#main .mainWrapper .aboutService_second .aboutService_aside {
+    padding: 10px 0;
+    font-size: smaller;
+}
+
+#main .mainWrapper .aboutService_second .aboutService_image {
+    width: 50%;
+    margin: 0 auto;
 }
