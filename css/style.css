@@ -834,3 +834,9 @@
     text-align: center;
     font-size: .9rem;
 }
+ #main .aboutProgram .aboutProgram_inquiry {
+     width: 100%;
+     background-image: url(../images/backgound_images/footer_bg_n_black.png);
+     background-repeat: repeat;
+     background-position: center top;
+ }
