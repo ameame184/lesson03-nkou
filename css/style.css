@@ -946,3 +946,30 @@
 #main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-contact .inquiry-contact-bottom:hover {
     text-decoration: underline;
 }
+
+/* 中等部ボタン */
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper h4 {
+    text-align: center;
+    font-weight: 100;
+}
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents .btn-wrapper {
+    margin-bottom: -100px;
+}
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents .btn-wrapper li {
+    height: 110px;
+}
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents .btn-wrapper li a img {
+    display: block;
+    object-fit: cover;
+    width: 135px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents .btn-wrapper li a small {
+    display: block;
+    text-align: center;
+}
