@@ -653,6 +653,8 @@
 #main .aboutProgram .aboutProgram_detail01:nth-child(odd) {
     width: 100%;
     background: #F7F7F7;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper {
@@ -826,4 +828,9 @@
     font-size: 1.7rem;
     line-height: 1.5;
     padding-bottom: 0;
+}
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents .aboutProgram_youtube p {
+    text-align: center;
+    font-size: .9rem;
 }
