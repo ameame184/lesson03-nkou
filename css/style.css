@@ -791,3 +791,39 @@
     margin-top: 10px;
     padding-left: 20px;
 }
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul li {
+    width: 490px;
+    height: 140px;
+    list-style: none;
+    display: table;
+    background: url(../images/backgound_images/bg_diagonal_black01.png);
+    background-position: 0 0;
+    padding: 6px;
+    margin-bottom: 30px;
+}
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul li a {
+    display: table-cell;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    background-image: url(../images/backgound_images/icon_arrow_right_black.png);
+    background-size: 5px 9px; 
+    background-position: 95% center;
+    padding: 8px 42px 12px 26px;
+    vertical-align: middle;
+}
+
+#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul li a p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+    padding-bottom: 0;
+}
