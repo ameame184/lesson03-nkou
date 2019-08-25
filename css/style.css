@@ -1,3 +1,8 @@
+li {
+    list-style: none;
+}
+
+
 /* ヘッダー */
 #header {
     width: 1280px;
@@ -33,7 +38,6 @@
 }
 
 #header .headerNavi_top ul li {
-    list-style: none;
     font-size: 12px;
     line-height: 13px;
 }
@@ -46,7 +50,7 @@
     border-left: 1px solid #676767;
 }
 
-#header .headerNavi_top .nav-first a {
+#header .headerNavi_top ul li:first-child a {
     display: inline-flex;
     border: none;
 }
@@ -137,7 +141,6 @@
 
 #header .headerNavi_local .headerNavi_left li {
     width: 180px;
-    list-style: none;
     border-left: 1px solid #dcdddd;
     text-align: center;
     font-size: 15px;
@@ -241,7 +244,6 @@
 }
 
 #header .headerNavi_local .headerNavi_right li {
-    list-style: none;
     width: 180px;
     text-align: center;
 }
@@ -312,7 +314,6 @@
 #headerHide .headerHide_wrapper .headerHide_right ul li {
     display: inline-block;
     vertical-align: middle;
-    list-style: none;
     margin-left: 5px;
 }
 
@@ -397,7 +398,6 @@
 
 #main .mainNavi ul li {
     display: inline-block;
-    list-style: none;
 }
 
 #main .mainNavi ul li a {
@@ -468,7 +468,6 @@
 
 #main .pageNavi ul li {
     display: table-cell;
-    list-style: none;
     font-size: 14px;
 }
 
@@ -804,7 +803,6 @@
 #main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul li {
     width: 490px;
     height: 140px;
-    list-style: none;
     display: table;
     background: url(../images/backgound_images/bg_diagonal_black01.png);
     background-position: 0 0;
@@ -865,7 +863,6 @@
 #main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-description ul li {
     width: 100%;
     height: 55px;
-    list-style: none;
     margin-bottom: 15px;
     font-size: 1.2rem;
 }
@@ -973,3 +970,79 @@
     display: block;
     text-align: center;
 }
+
+/* footer */
+#footer {
+    width: 1280px;
+    margin-bottom: 20px;
+    background: #F8F8F8;
+}
+
+#footer .footerWrapper {
+    width: 1060px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer .footerWrapper .pageTop_img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 35px;
+    left: 950px;
+    right: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-image: url(../images/backgound_images/footer_to_top.png);
+}
+
+#footer .footerWrapper .pageTop_img:hover {
+    display: block;
+    opacity: 0.7;
+    transition: .2s;
+}
+
+#footer .footerWrapper .pageTop_img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#footer .footerWrapper .footerNavi {
+    width: 1000px;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+#footer .footerWrapper .footerNavi ul {
+    display: flex;
+    line-height: 1rem;
+}
+
+#footer .footerWrapper .footerNavi ul li:not(:first-child) {
+    border-left: 1px solid #676767;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#footer .footerWrapper .footerNavi ul li a{
+    display: block;
+    color: #000066;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer .footerWrapper .footerNavi ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer .footerWrapper .footerIndex {
+    width: 190px;
+    display: inline-grid;
+    margin-right: 15px;
+}
+
+
+#footer .footerWrapper .footerIndex
