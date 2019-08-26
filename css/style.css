@@ -456,7 +456,7 @@ a {
     text-align: center; 
     background-image: url(../images/backgound_images/line_white.png);
     background-position: center bottom;
-    background-size: 200px;
+    background-size: 200px 1px;
     color: #FFFFFF;
     font-size: 3.2rem;
     font-weight: 100;
@@ -531,7 +531,7 @@ a {
     font-size: 1.2rem;
     background-image: url(../images/backgound_images/line_black01.png);
     background-position: center bottom;
-    background-size: 200px;
+    background-size: 200px 1px;
     padding-bottom: 20px;
 }
 
@@ -552,6 +552,7 @@ a {
     font-weight: 500;
     background-image: url(../images/backgound_images/line_black02.png);
     background-position: left bottom;
+    background-size: 100%;
     margin-bottom: 50px;
 }
 
@@ -666,6 +667,7 @@ a {
 #main .mainWrapper .aboutService_second .aboutService_image {
     width: 50%;
     margin: 0 auto;
+    object-fit: none;
 }
 
 /* プログラムについての中身 */
@@ -694,7 +696,7 @@ a {
     font-weight: normal;
     background-image: url(../images/backgound_images/line_black01.png);
     background-position: center bottom;
-    background-size: 200px;
+    background-size: 200px 1px;
     padding: 20px 0;
     margin-bottom: 20px;
 }
@@ -717,6 +719,7 @@ a {
     display: block;
     margin-left: 30px;
     color: inherit;
+    width: 50%;
 }
 
 #main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a:hover {
@@ -731,7 +734,7 @@ a {
 #main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a .program {
     display: inline-block;
     padding: 7px 10px 2px 10px;
-    width: 120px;
+    width: 90px;
     background: #1C1C1C;
     margin-bottom: 10px;
 }
@@ -774,6 +777,7 @@ a {
     display: block;
     margin-right: 30px;
     color: inherit;
+    width: 50%;
 }
 
 #main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a:hover {
@@ -788,7 +792,7 @@ a {
 #main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a .program {
     display: inline-block;
     padding: 7px 10px 2px 10px;
-    width: 120px;
+    width: 90px;
     background: #1C1C1C;
     margin-bottom: 10px;
 }
@@ -932,11 +936,13 @@ a {
 
 #main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact a {
     display: flex;
+    width: 100%;
 }
 
 #main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact a img {
     display: block;
     width: 250px;
+    height: 29px;
 }
 
 #main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact .contact_top {
