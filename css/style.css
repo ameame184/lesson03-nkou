@@ -30,7 +30,7 @@ a {
     height: 30px;
 }
 
-#header .headerNavi_top .headerNavi_top_wrapper {
+#header .headerNavi_top .headerNavi_top-wrapper {
     width: 1060px;
     margin: 0 auto;
 }
@@ -152,7 +152,7 @@ a {
     transition: .2s;
 }
 
-/* ヘッダーファーストナビ */
+/* ヘッダーのコースナビ */
 #header .headerNavi_local {
     clear: both;
     width: 1040px;
@@ -191,11 +191,11 @@ a {
     color: #1f286f;
 }
 
-#header .headerNavi_local ul .headerNavi_left-about {
+#header .headerNavi_local ul .headerNavi_about {
     color: #1f286f;
 }
 
-#header .headerNavi_local ul .headerNavi_left-about span {
+#header .headerNavi_local ul .headerNavi_about span {
     display: block;
     background-image: url(../images/backgound_images/global_nav_btn_01.png);
     background-position: bottom;
@@ -205,7 +205,7 @@ a {
     height: 10px;
 }
 
-#header .headerNavi_local ul .headerNavi_left-net span {
+#header .headerNavi_local ul .headerNavi_net span {
     display: block;
     background-image: url(../images/backgound_images/global_nav_btn_02.png);
     background-position: top;
@@ -215,7 +215,7 @@ a {
     height: 10px;
 }
 
-#header .headerNavi_local ul .headerNavi_left-net a:hover span {
+#header .headerNavi_local ul .headerNavi_net a:hover span {
     display: block;
     background-image: url(../images/backgound_images/global_nav_btn_02.png);
     background-position: bottom;
@@ -225,7 +225,7 @@ a {
     height: 10px;
 }
 
-#header .headerNavi_local ul .headerNavi_left-commute span {
+#header .headerNavi_local ul .headerNavi_commute span {
     display: block;
     background-image: url(../images/backgound_images/global_nav_btn_03.png);
     background-position: top;
@@ -235,7 +235,7 @@ a {
     height: 10px;
 }
 
-#header .headerNavi_local ul .headerNavi_left-commute a:hover span {
+#header .headerNavi_local ul .headerNavi_commute a:hover span {
     display: block;
     background-image: url(../images/backgound_images/global_nav_btn_03.png);
     background-position: bottom;
@@ -245,7 +245,7 @@ a {
     height: 10px;
 }
 
-#header .headerNavi_local ul .headerNavi_left-alliance span {
+#header .headerNavi_local ul .headerNavi_alliance span {
     display: block;
     background-image: url(../images/backgound_images/global_nav_btn_04.png);
     background-position: top;
@@ -255,7 +255,7 @@ a {
     height: 10px;
 }
 
-#header .headerNavi_local ul .headerNavi_left-alliance a:hover span {
+#header .headerNavi_local ul .headerNavi_alliance a:hover span {
     display: block;
     background-image: url(../images/backgound_images/global_nav_btn_04.png);
     background-position: bottom;
@@ -380,12 +380,13 @@ a {
 }
 
 
-/* メイン */
+/* ----- メイン ----- */
 #main {
     clear: both;
     width: 1280px;
 }
 
+/* 学校紹介ナビ */
 #main .mainNavi {
     background: #181836;
 }
@@ -475,6 +476,7 @@ a {
     margin-top: 30px;
 }
 
+/* ページのナビ */
 #main .pageNavi {
     width: 100%;
     border-bottom: 1px solid #e1e1e1;
@@ -514,7 +516,7 @@ a {
     margin-bottom: 50px;
 }
 
-#main .mainWrapper .mainTitle_sub .mainTitle_sub-content h2 {
+#main .mainWrapper .mainTitle_sub .mainTitle_content h2 {
     text-align: center;
     margin-bottom: 70px;
     font-size: 2rem;
@@ -522,7 +524,7 @@ a {
     letter-spacing: 10px;
 }
 
-#main .mainWrapper .mainTitle_sub .mainTitle_sub-content h3 {
+#main .mainWrapper .mainTitle_sub .mainTitle_content h3 {
     text-align: center;
     letter-spacing: 5px;
     line-height: 2;
@@ -533,7 +535,7 @@ a {
     padding-bottom: 20px;
 }
 
-#main .mainWrapper .mainTitle_sub .mainTitle_sub-content p {
+#main .mainWrapper .mainTitle_sub .mainTitle_content p {
     width: 700px;
     margin: 0 auto;
     padding-top: 25px;
@@ -543,6 +545,7 @@ a {
     text-align: justify;
 }
 
+/* 教育方針 */
 #main .mainWrapper .aboutService_title {
     font-size: 1.8rem;
     padding: 10px 0;
@@ -588,41 +591,41 @@ a {
 }
 
 /* N STANDARD */
-#main .mainWrapper .aboutService_standards {
+#main .mainWrapper .aboutService_first {
     width: 690px;
     margin: 0 auto;
     margin-bottom: 60px;
     background: #f7f7f7;
 }
 
-#main .mainWrapper .aboutService_standards a {
+#main .mainWrapper .aboutService_first a {
     display: flex;
     padding: 30px 40px;
     border: 1px solid #ddd;
     color: inherit;
 }
 
-#main .mainWrapper .aboutService_standards a:hover img {
+#main .mainWrapper .aboutService_first a:hover img {
     opacity: 0.7;
     transition: .2s;
 }
 
-#main .mainWrapper .aboutService_standards .stardards_content {
+#main .mainWrapper .aboutService_first .stardards_content {
     margin-left: 20px;
 }
 
-#main .mainWrapper .aboutService_standards .stardards_content h3 {
+#main .mainWrapper .aboutService_first .stardards_content h3 {
     font-weight: bold;
     margin: 5px 0 10px 0;
 }
 
-#main .mainWrapper .aboutService_standards .stardards_content p {
+#main .mainWrapper .aboutService_first .stardards_content p {
     text-align: justify;
     margin-bottom: 30px;
     line-height: 2;
 }
 
-#main .mainWrapper .aboutService_standards .stardards_content img {
+#main .mainWrapper .aboutService_first .stardards_content img {
     display: block;
     background-image: url(../images/backgound_images/icon_arrow_right_black.png);
     background-size: 5px 9px; 
@@ -632,12 +635,13 @@ a {
     padding-left: 20px;
 }
 
+/* N高の魅力 */
 #main .mainWrapper .aboutService_second {
     display: flex;
     margin-bottom: 80px;
 }
 
-#main .mainWrapper .aboutService_second .aboutService_second-wrapper {
+#main .mainWrapper .aboutService_second .aboutService_wrapper {
     width: 45%;
 }
 
@@ -669,20 +673,21 @@ a {
     width: 1280px;
 }
 
-#main .aboutProgram .aboutProgram_detail01:nth-child(odd) {
+/* 1番目コンテンツ */
+#main .aboutProgram .aboutProgram_first:nth-child(odd) {
     width: 100%;
     background: #F7F7F7;
     border-top: 1px solid #e2e2e2;
     border-bottom: 1px solid #e2e2e2;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper {
     width: 1060px;
     margin: 0 auto;
     padding: 70px 0;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_center01 {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_title {
     text-align: center;
     line-height: 2;
     font-size: 2rem;
@@ -694,36 +699,36 @@ a {
     margin-bottom: 20px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_center02 {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_aside {
     text-align: center;
     line-height: 2;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents {
     display: flex;
     margin: 70px 0 80px 0;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents img {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents img {
     width: 100%;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a {
     display: block;
     margin-left: 30px;
     color: inherit;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a:hover {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a:hover {
     opacity: 0.7;
     transition: .2s;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a img {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a img {
     object-fit: cover;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a .program {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a .program {
     display: inline-block;
     padding: 7px 10px 2px 10px;
     width: 120px;
@@ -731,20 +736,20 @@ a {
     margin-bottom: 10px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a h3 {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a h3 {
     padding-bottom: 10px;
     font-size: 1.5rem;
     line-height: 2.8rem;
     font-weight: normal;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a p {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a p {
     padding: 10px 0;
     line-height: 1.7rem;
     text-align: justify;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents a .aboutProgram_more {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents a .more {
     display: block;
     background-image: url(../images/backgound_images/icon_arrow_right_black.png);
     background-size: 5px 9px; 
@@ -756,31 +761,31 @@ a {
 
 
 /* ２番目コンテンツ */
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second {
     display: flex;
     margin: 70px 0 80px 0;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents img {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second img {
     width: 100%;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a {
     display: block;
     margin-right: 30px;
     color: inherit;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a:hover {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a:hover {
     opacity: 0.7;
     transition: .2s;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a img {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a img {
     object-fit: cover;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a .program {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a .program {
     display: inline-block;
     padding: 7px 10px 2px 10px;
     width: 120px;
@@ -788,20 +793,20 @@ a {
     margin-bottom: 10px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a h3 {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a h3 {
     padding-bottom: 10px;
     font-size: 1.5rem;
     line-height: 2.8rem;
     font-weight: normal;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a p {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a p {
     padding: 10px 0;
     line-height: 1.7rem;
     text-align: justify;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents a .aboutProgram_more {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second a .more {
     display: block;
     background-image: url(../images/backgound_images/icon_arrow_right_black.png);
     background-size: 5px 9px; 
@@ -811,14 +816,14 @@ a {
     padding-left: 20px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents ul {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul li {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents ul li {
     width: 490px;
     height: 140px;
     display: table;
@@ -828,7 +833,7 @@ a {
     margin-bottom: 30px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul li a {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents ul li a {
     display: table-cell;
     width: 100%;
     margin: 0 auto;
@@ -840,18 +845,19 @@ a {
     vertical-align: middle;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents ul li a p {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents ul li a p {
     font-size: 1.6rem;
     line-height: 1.5;
     padding-bottom: 0;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail02-contents .aboutProgram_youtube p {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents-second .youtube p {
     text-align: center;
     font-size: .9rem;
 }
 
-#main .aboutProgram .aboutProgram_inquiry {
+/* 問い合わせ全般 */
+#main .aboutProgram .aboutInquiry {
     width: 100%;
     height: 250px;
     background-image: url(../images/backgound_images/footer_bg_n_black.png);
@@ -860,32 +866,32 @@ a {
     color: #ffffff;
 }
  
-#main .aboutProgram .aboutProgram_inquiry h3 {
+#main .aboutProgram .aboutInquiry h3 {
     text-align: center;
     padding: 30px 0;
     letter-spacing: .4rem;
     font-weight: 100;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper {
     width: 1060px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-description {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_description {
     width: 260px;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-description ul li {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_description ul li {
     width: 100%;
     height: 55px;
     margin-bottom: 15px;
     font-size: 1.2rem;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-description ul li:first-child a {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_description ul li:first-child a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -899,7 +905,7 @@ a {
     background-position: 94% 50%, 5% 50%;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-description ul li:nth-child(2) a {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_description ul li:nth-child(2) a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -913,33 +919,33 @@ a {
     background-position: 94% 50%, 5% 50%;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-description ul li a:hover {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_description ul li a:hover {
     opacity: .6;
     transition: .2s;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-contact {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact {
     margin-left: 50px;
     text-align: center;
     display: grid;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-contact a {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact a {
     display: flex;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-contact a img {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact a img {
     display: block;
     width: 250px;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-contact .inquiry-contact-top {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact .contact_top {
     margin-bottom: 15px;
     padding: 7px 0;
     height: 55px;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-contact .inquiry-contact-bottom {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact .contact_bottom {
     display: flex;
     font-size: .8rem;
     align-items: center;
@@ -955,25 +961,25 @@ a {
     background-position: 94% 50%;
 }
 
-#main .aboutProgram .aboutProgram_inquiry .aboutProgram_inquiry-wrapper .aboutProgram_inquiry-contact .inquiry-contact-bottom:hover {
+#main .aboutProgram .aboutInquiry .aboutInquiry_wrapper .aboutInquiry_contact .contact_bottom:hover {
     text-decoration: underline;
 }
 
 /* 中等部ボタン */
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper h4 {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper h4 {
     text-align: center;
     font-weight: 100;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents .btn-wrapper {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents .btn-wrapper {
     margin-bottom: -100px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents .btn-wrapper li {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents .btn-wrapper li {
     height: 110px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents .btn-wrapper li a img {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents .btn-wrapper li a img {
     display: block;
     object-fit: cover;
     width: 135px;
@@ -981,12 +987,12 @@ a {
     margin-bottom: 10px;
 }
 
-#main .aboutProgram .aboutProgram_detail01 .aboutProgram_detail01-wrapper .aboutProgram_detail01-contents .btn-wrapper li a small {
+#main .aboutProgram .aboutProgram_first .aboutProgram_wrapper .aboutProgram_contents .btn-wrapper li a small {
     display: block;
     text-align: center;
 }
 
-/* フッター */
+/* ----- フッター ----- */
 #footer {
     width: 1280px;
     margin-bottom: 20px;
