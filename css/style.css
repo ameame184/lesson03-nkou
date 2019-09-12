@@ -16,7 +16,7 @@ a {
 
 /* ----- ヘッダー ----- */
 #header {
-    width: 1280px;
+    width: 100%;
     height: 185px;
     position: relative;
     z-index: 2;
@@ -312,7 +312,7 @@ a {
     background: rgba(255, 255, 255, 0.90);
 }
 #headerHide .headerHide_wrapper {
-    width: 1040px;
+    width: 1060px;
     margin: 0 auto;
     margin-top: 10px;
     height: 60px;
@@ -383,7 +383,7 @@ a {
 /* ----- メイン ----- */
 #main {
     clear: both;
-    width: 1280px;
+    width: 100%;
 }
 
 /* 学校紹介ナビ */
@@ -446,10 +446,11 @@ a {
 
 /* メインイメージ */
 #main .mainTitle {
-    width: 1280px;
+    width: 100%;
     height: 530px;
     background-image: url(../images/backgound_images/about_mainimage.jpg);
-    object-fit: cover;
+    background-position: center center;
+    background-size: cover;
 }
 
 #main .mainTitle h1 {
@@ -506,14 +507,14 @@ a {
 
 /* メインコンテンツ */
 #main .mainWrapper {
-    width: 1060px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 #main .mainWrapper .mainTitle_sub {
-    width: 100%;
+    width: 1060px;
     padding-top: 30px;
     margin-bottom: 50px;
+    margin: 0 auto;
 }
 
 #main .mainWrapper .mainTitle_sub .mainTitle_content h2 {
@@ -547,6 +548,8 @@ a {
 
 /* 教育方針 */
 #main .mainWrapper .aboutService_title {
+    width: 1060px;
+    margin: 0 auto;
     font-size: 1.8rem;
     padding: 10px 0;
     font-weight: 500;
@@ -557,6 +560,8 @@ a {
 }
 
 #main .mainWrapper .aboutService {
+    width: 1060px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;     
@@ -638,6 +643,8 @@ a {
 
 /* N高の魅力 */
 #main .mainWrapper .aboutService_second {
+    width: 1060px;
+    margin: 0 auto;
     display: flex;
     margin-bottom: 80px;
 }
@@ -672,7 +679,7 @@ a {
 
 /* プログラムについての中身 */
 #main .aboutProgram {
-    width: 1280px;
+    width: 100%;
 }
 
 /* 1番目コンテンツ */
@@ -1000,7 +1007,7 @@ a {
 
 /* ----- フッター ----- */
 #footer {
-    width: 1280px;
+    width: 100%;
     margin-bottom: 20px;
     background: #F8F8F8;
 }
@@ -1180,7 +1187,7 @@ a {
 
 /* フッターCopyRight */
 #footer .footerBottom {
-    width: 1280px;
+    width: 100%;
     background-color: #1a1a1a;
     color: #999999;
     font-size: .7rem;
